@@ -1,0 +1,52 @@
+{
+  "name": "react-jsonapi",
+  "version": "1.0.0",
+  "description": "We currently have ample opportunity to create a state management and data fetching tool for react, that would support all [JSONAPI-SPEC](https://jsonapi.org/) compliant api's. Because JSONAPI-SPEC is fully documented and follows a set standard, we can use query languages and their syntax (like graphql) or plain json objects/urls to request data from the server.",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "test": "jest --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/artemis-ag/react-jsonapi.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/artemis-ag/react-jsonapi/issues"
+  },
+  "homepage": "https://github.com/artemis-ag/react-jsonapi#readme",
+  "files": [
+    "dist"
+  ],
+  "dependencies": {
+    "@types/enzyme": "^3.10.5",
+    "@types/jest": "^25.1.4",
+    "@types/react": "^16.9.31",
+    "enzyme": "^3.11.0",
+    "jest": "^25.2.4",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-testing-library": "^8.0.1",
+    "ts-jest": "^25.3.0",
+    "ts-loader": "^6.2.2",
+    "typescript": "^3.8.3",
+    "webpack": "^4.42.1"
+  },
+  "jest": {
+    "automock": false,
+    "transform": {
+      "^.+\\.(ts|tsx)$": "ts-jest"
+    },
+    "testPathIgnorePatterns": [
+      "/spec/fixtures/",
+      "/spec/support/",
+      "/dist/",
+      "/node_modules/"
+    ]
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.3.11"
+  }
+}
