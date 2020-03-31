@@ -14,9 +14,12 @@ Most eslint styles and configs are yet to be determined, but we know we want the
  4. Test Driven Development using react-test-library and jest/enzyme
  5. Strictly typed whenever possible
  6. Low foot print, whenever possible
+ 7. Semantic Versioning
+ 8. git rebase is preferable to git merge
+ 9. Document methods and functions as you create them
 
 ## What needs to be done?
-Data fetching support for the follow JSONAPI standard
+Data fetching support for the following JSONAPI standard
  - [ ] Support for interception and pipe for requests and responses (i.e. apollo link)
  - [ ] Support for base routes (/users, /posts)
  - [ ] Support for basic route crud
