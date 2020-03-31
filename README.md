@@ -16,7 +16,7 @@ Most eslint styles and configs are yet to be determined, but we know we want the
  6. Low foot print, whenever possible
 
 ## What needs to be done?
-Data fetching support for the follow JSONAPI standard
+Data fetching support for the following JSONAPI standard
  - [ ] Support for interception and pipe for requests and responses (i.e. apollo link)
  - [ ] Support for base routes (/users, /posts)
  - [ ] Support for basic route crud
